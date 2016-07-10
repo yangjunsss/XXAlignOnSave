@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3CB1601D30FBE800AAF1F6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CB15C1D30FBE800AAF1F6 /* LICENSE */; };
+		0C3CB1611D30FBE800AAF1F6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CB15D1D30FBE800AAF1F6 /* README.md */; };
+		0C3CB1621D30FBE800AAF1F6 /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CB15F1D30FBE800AAF1F6 /* install.sh */; };
+		0C3CB1651D31478D00AAF1F6 /* NSString+OnSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CB1641D31478D00AAF1F6 /* NSString+OnSave.m */; };
+		0CEC97AF1D30F189006BF3BA /* XXAlignOnSave.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC97AE1D30F189006BF3BA /* XXAlignOnSave.xcscheme */; };
+		0CEC97C11D30F1A5006BF3BA /* NSObject+Plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97B91D30F1A5006BF3BA /* NSObject+Plugin.m */; };
+		0CEC97C21D30F1A5006BF3BA /* XXAlignOnSavePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97BC1D30F1A5006BF3BA /* XXAlignOnSavePlugin.m */; };
+		0CEC97C31D30F1A5006BF3BA /* XAlignPlugin+OnSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97BE1D30F1A5006BF3BA /* XAlignPlugin+OnSave.m */; };
+		0CEC97C41D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97C01D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m */; };
+		0CEC97DB1D30F21C006BF3BA /* NSString+XAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97CA1D30F21C006BF3BA /* NSString+XAlign.m */; };
+		0CEC97DC1D30F21C006BF3BA /* patterns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC97CB1D30F21C006BF3BA /* patterns.plist */; };
+		0CEC97DD1D30F21C006BF3BA /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC97CC1D30F21C006BF3BA /* setting.plist */; };
+		0CEC97DE1D30F21C006BF3BA /* SettingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97CE1D30F21C006BF3BA /* SettingWindowController.m */; };
+		0CEC97DF1D30F21C006BF3BA /* SettingWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC97CF1D30F21C006BF3BA /* SettingWindowController.xib */; };
+		0CEC97E01D30F21C006BF3BA /* XAlignPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97D11D30F21C006BF3BA /* XAlignPattern.m */; };
+		0CEC97E11D30F21C006BF3BA /* XAlignPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97D31D30F21C006BF3BA /* XAlignPlugin.m */; };
+		0CEC97E21D30F21C006BF3BA /* XAlignPluginConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97D51D30F21C006BF3BA /* XAlignPluginConfig.m */; };
+		0CEC97E31D30F21C006BF3BA /* SharedXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97D81D30F21C006BF3BA /* SharedXcode.m */; };
+		0CEC97EE1D30F862006BF3BA /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEC97EC1D30F862006BF3BA /* DVTKit.framework */; };
+		0CEC97EF1D30F862006BF3BA /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEC97ED1D30F862006BF3BA /* DVTFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3CB15C1D30FBE800AAF1F6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0C3CB15D1D30FBE800AAF1F6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0C3CB15F1D30FBE800AAF1F6 /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		0C3CB1631D31478D00AAF1F6 /* NSString+OnSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OnSave.h"; sourceTree = "<group>"; };
+		0C3CB1641D31478D00AAF1F6 /* NSString+OnSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OnSave.m"; sourceTree = "<group>"; };
+		0CEC97AA1D30F189006BF3BA /* XXAlignOnSave.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXAlignOnSave.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEC97AE1D30F189006BF3BA /* XXAlignOnSave.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = XXAlignOnSave.xcscheme; path = XXAlignOnSave.xcodeproj/xcshareddata/xcschemes/XXAlignOnSave.xcscheme; sourceTree = SOURCE_ROOT; };
+		0CEC97B31D30F189006BF3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEC97B91D30F1A5006BF3BA /* NSObject+Plugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Plugin.m"; sourceTree = "<group>"; };
+		0CEC97BA1D30F1A5006BF3BA /* NSObject+Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Plugin.h"; sourceTree = "<group>"; };
+		0CEC97BB1D30F1A5006BF3BA /* XXAlignOnSavePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXAlignOnSavePlugin.h; sourceTree = "<group>"; };
+		0CEC97BC1D30F1A5006BF3BA /* XXAlignOnSavePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXAlignOnSavePlugin.m; sourceTree = "<group>"; };
+		0CEC97BD1D30F1A5006BF3BA /* XAlignPlugin+OnSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XAlignPlugin+OnSave.h"; sourceTree = "<group>"; };
+		0CEC97BE1D30F1A5006BF3BA /* XAlignPlugin+OnSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAlignPlugin+OnSave.m"; sourceTree = "<group>"; };
+		0CEC97BF1D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XAlignPluginConfig+OnSave.h"; sourceTree = "<group>"; };
+		0CEC97C01D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAlignPluginConfig+OnSave.m"; sourceTree = "<group>"; };
+		0CEC97C61D30F21C006BF3BA /* blade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blade.h; sourceTree = "<group>"; };
+		0CEC97C91D30F21C006BF3BA /* NSString+XAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XAlign.h"; sourceTree = "<group>"; };
+		0CEC97CA1D30F21C006BF3BA /* NSString+XAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XAlign.m"; sourceTree = "<group>"; };
+		0CEC97CB1D30F21C006BF3BA /* patterns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = patterns.plist; sourceTree = "<group>"; };
+		0CEC97CC1D30F21C006BF3BA /* setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting.plist; sourceTree = "<group>"; };
+		0CEC97CD1D30F21C006BF3BA /* SettingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingWindowController.h; sourceTree = "<group>"; };
+		0CEC97CE1D30F21C006BF3BA /* SettingWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingWindowController.m; sourceTree = "<group>"; };
+		0CEC97CF1D30F21C006BF3BA /* SettingWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingWindowController.xib; sourceTree = "<group>"; };
+		0CEC97D01D30F21C006BF3BA /* XAlignPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAlignPattern.h; sourceTree = "<group>"; };
+		0CEC97D11D30F21C006BF3BA /* XAlignPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAlignPattern.m; sourceTree = "<group>"; };
+		0CEC97D21D30F21C006BF3BA /* XAlignPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAlignPlugin.h; sourceTree = "<group>"; };
+		0CEC97D31D30F21C006BF3BA /* XAlignPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAlignPlugin.m; sourceTree = "<group>"; };
+		0CEC97D41D30F21C006BF3BA /* XAlignPluginConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAlignPluginConfig.h; sourceTree = "<group>"; };
+		0CEC97D51D30F21C006BF3BA /* XAlignPluginConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAlignPluginConfig.m; sourceTree = "<group>"; };
+		0CEC97D71D30F21C006BF3BA /* SharedXcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedXcode.h; sourceTree = "<group>"; };
+		0CEC97D81D30F21C006BF3BA /* SharedXcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedXcode.m; sourceTree = "<group>"; };
+		0CEC97D91D30F21C006BF3BA /* xprivates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xprivates.h; sourceTree = "<group>"; };
+		0CEC97E41D30F44F006BF3BA /* XAlign-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XAlign-Prefix.pch"; sourceTree = "<group>"; };
+		0CEC97EC1D30F862006BF3BA /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = /Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<absolute>"; };
+		0CEC97ED1D30F862006BF3BA /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = /Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CEC97E71D30F6D1006BF3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEC97EE1D30F862006BF3BA /* DVTKit.framework in Frameworks */,
+				0CEC97EF1D30F862006BF3BA /* DVTFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3CB1591D30FABB00AAF1F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC97EC1D30F862006BF3BA /* DVTKit.framework */,
+				0CEC97ED1D30F862006BF3BA /* DVTFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C3CB15E1D30FBE800AAF1F6 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				0C3CB15F1D30FBE800AAF1F6 /* install.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		0CEC97A21D30F189006BF3BA = {
+			isa = PBXGroup;
+			children = (
+				0C3CB15C1D30FBE800AAF1F6 /* LICENSE */,
+				0C3CB15D1D30FBE800AAF1F6 /* README.md */,
+				0C3CB15E1D30FBE800AAF1F6 /* Scripts */,
+				0C3CB1591D30FABB00AAF1F6 /* Frameworks */,
+				0CEC97AC1D30F189006BF3BA /* XXAlignOnSave */,
+				0CEC97AB1D30F189006BF3BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CEC97AB1D30F189006BF3BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC97AA1D30F189006BF3BA /* XXAlignOnSave.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CEC97AC1D30F189006BF3BA /* XXAlignOnSave */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC97C51D30F21C006BF3BA /* XAlign */,
+				0CEC97D61D30F21C006BF3BA /* Xcode */,
+				0CEC97B91D30F1A5006BF3BA /* NSObject+Plugin.m */,
+				0CEC97BA1D30F1A5006BF3BA /* NSObject+Plugin.h */,
+				0C3CB1631D31478D00AAF1F6 /* NSString+OnSave.h */,
+				0C3CB1641D31478D00AAF1F6 /* NSString+OnSave.m */,
+				0CEC97BB1D30F1A5006BF3BA /* XXAlignOnSavePlugin.h */,
+				0CEC97BC1D30F1A5006BF3BA /* XXAlignOnSavePlugin.m */,
+				0CEC97BD1D30F1A5006BF3BA /* XAlignPlugin+OnSave.h */,
+				0CEC97BE1D30F1A5006BF3BA /* XAlignPlugin+OnSave.m */,
+				0CEC97BF1D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.h */,
+				0CEC97C01D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m */,
+				0CEC97B31D30F189006BF3BA /* Info.plist */,
+				0CEC97AD1D30F189006BF3BA /* Supporting Files */,
+			);
+			path = XXAlignOnSave;
+			sourceTree = "<group>";
+		};
+		0CEC97AD1D30F189006BF3BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC97AE1D30F189006BF3BA /* XXAlignOnSave.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CEC97C51D30F21C006BF3BA /* XAlign */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC97C61D30F21C006BF3BA /* blade.h */,
+				0CEC97C91D30F21C006BF3BA /* NSString+XAlign.h */,
+				0CEC97CA1D30F21C006BF3BA /* NSString+XAlign.m */,
+				0CEC97CB1D30F21C006BF3BA /* patterns.plist */,
+				0CEC97CC1D30F21C006BF3BA /* setting.plist */,
+				0CEC97CD1D30F21C006BF3BA /* SettingWindowController.h */,
+				0CEC97CE1D30F21C006BF3BA /* SettingWindowController.m */,
+				0CEC97CF1D30F21C006BF3BA /* SettingWindowController.xib */,
+				0CEC97D01D30F21C006BF3BA /* XAlignPattern.h */,
+				0CEC97D11D30F21C006BF3BA /* XAlignPattern.m */,
+				0CEC97D21D30F21C006BF3BA /* XAlignPlugin.h */,
+				0CEC97D31D30F21C006BF3BA /* XAlignPlugin.m */,
+				0CEC97D41D30F21C006BF3BA /* XAlignPluginConfig.h */,
+				0CEC97D51D30F21C006BF3BA /* XAlignPluginConfig.m */,
+				0CEC97E41D30F44F006BF3BA /* XAlign-Prefix.pch */,
+			);
+			path = XAlign;
+			sourceTree = "<group>";
+		};
+		0CEC97D61D30F21C006BF3BA /* Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC97D71D30F21C006BF3BA /* SharedXcode.h */,
+				0CEC97D81D30F21C006BF3BA /* SharedXcode.m */,
+				0CEC97D91D30F21C006BF3BA /* xprivates.h */,
+			);
+			path = Xcode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CEC97A91D30F189006BF3BA /* XXAlignOnSave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEC97B61D30F189006BF3BA /* Build configuration list for PBXNativeTarget "XXAlignOnSave" */;
+			buildPhases = (
+				0CEC97A71D30F189006BF3BA /* Sources */,
+				0CEC97A81D30F189006BF3BA /* Resources */,
+				0CEC97E71D30F6D1006BF3BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XXAlignOnSave;
+			productName = XXAlignOnSave;
+			productReference = 0CEC97AA1D30F189006BF3BA /* XXAlignOnSave.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CEC97A31D30F189006BF3BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yj;
+				TargetAttributes = {
+					0CEC97A91D30F189006BF3BA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0CEC97A61D30F189006BF3BA /* Build configuration list for PBXProject "XXAlignOnSave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CEC97A21D30F189006BF3BA;
+			productRefGroup = 0CEC97AB1D30F189006BF3BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CEC97A91D30F189006BF3BA /* XXAlignOnSave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CEC97A81D30F189006BF3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEC97DC1D30F21C006BF3BA /* patterns.plist in Resources */,
+				0CEC97DD1D30F21C006BF3BA /* setting.plist in Resources */,
+				0CEC97AF1D30F189006BF3BA /* XXAlignOnSave.xcscheme in Resources */,
+				0CEC97DF1D30F21C006BF3BA /* SettingWindowController.xib in Resources */,
+				0C3CB1621D30FBE800AAF1F6 /* install.sh in Resources */,
+				0C3CB1601D30FBE800AAF1F6 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CEC97A71D30F189006BF3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEC97C21D30F1A5006BF3BA /* XXAlignOnSavePlugin.m in Sources */,
+				0CEC97C31D30F1A5006BF3BA /* XAlignPlugin+OnSave.m in Sources */,
+				0CEC97E11D30F21C006BF3BA /* XAlignPlugin.m in Sources */,
+				0CEC97DE1D30F21C006BF3BA /* SettingWindowController.m in Sources */,
+				0CEC97E31D30F21C006BF3BA /* SharedXcode.m in Sources */,
+				0CEC97E01D30F21C006BF3BA /* XAlignPattern.m in Sources */,
+				0CEC97DB1D30F21C006BF3BA /* NSString+XAlign.m in Sources */,
+				0CEC97C11D30F1A5006BF3BA /* NSObject+Plugin.m in Sources */,
+				0CEC97E21D30F21C006BF3BA /* XAlignPluginConfig.m in Sources */,
+				0C3CB1611D30FBE800AAF1F6 /* README.md in Sources */,
+				0CEC97C41D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m in Sources */,
+				0C3CB1651D31478D00AAF1F6 /* NSString+OnSave.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0CEC97B41D30F189006BF3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0CEC97B51D30F189006BF3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0CEC97B71D30F189006BF3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XXAlignOnSave/XAlign/XAlign-Prefix.pch";
+				INFOPLIST_FILE = XXAlignOnSave/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yangjunsss.XXAlignOnSave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		0CEC97B81D30F189006BF3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XXAlignOnSave/XAlign/XAlign-Prefix.pch";
+				INFOPLIST_FILE = XXAlignOnSave/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yangjunsss.XXAlignOnSave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CEC97A61D30F189006BF3BA /* Build configuration list for PBXProject "XXAlignOnSave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEC97B41D30F189006BF3BA /* Debug */,
+				0CEC97B51D30F189006BF3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CEC97B61D30F189006BF3BA /* Build configuration list for PBXNativeTarget "XXAlignOnSave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEC97B71D30F189006BF3BA /* Debug */,
+				0CEC97B81D30F189006BF3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CEC97A31D30F189006BF3BA /* Project object */;
+}

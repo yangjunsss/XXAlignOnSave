@@ -2,6 +2,10 @@
 
 An amazing Xcode plugin to automatically align and indent when save your regular code,such as C,C++,OC.It's based on the XAlign plugin which is configrable.More about XAlign [Here](https://github.com/qfish/XAlign).
 
+##Why I create it?
+
+I'm lazy to align the code by selection.I want auto.
+
 ### Install & Uninstall
 
 ####Install

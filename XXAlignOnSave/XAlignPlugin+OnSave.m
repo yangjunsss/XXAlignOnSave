@@ -18,9 +18,9 @@
 
 - (void)autoAlignAll
 {
-    NSTextView * textView = [SharedXcode textView];
+    NSTextView * textView            = [SharedXcode textView];
     IDESourceCodeDocument * document = [SharedXcode sourceCodeDocument];
-    IDESourceCodeEditor *editor = [SharedXcode currentEditor];
+    IDESourceCodeEditor *editor      = [SharedXcode currentEditor];
     if ( !document || !editor )
         return;
     DVTFileDataType *type = [document fileDataType];
@@ -35,8 +35,8 @@
     
     if (textView) {
         NSString *allcontent = textView.string;
-        if ([allcontent length] > [XXAlignOnSavePlugin sharedInstance].maxLine) {
-            NSLog(@"file line exceed the max limitation:%zd",[XXAlignOnSavePlugin sharedInstance].maxLine);
+        if ([allcontent length] > [XXAlignOnSavePlugin sharedInstance].maxLength) {
+            NSLog(@"file line exceed the max length limitation:%zd",[XXAlignOnSavePlugin sharedInstance].maxLength);
             return;
         }
         NSString * replace = [allcontent stringByAligning];
@@ -44,7 +44,7 @@
         {
             
             NSTextView *textView = [editor textView];
-            NSRange curRange = textView.selectedRange;
+            NSRange curRange     = textView.selectedRange;
             
             [[document textStorage] beginEditing];
             [[document textStorage] replaceCharactersInRange:NSMakeRange(0, allcontent.length) withString:replace withUndoManager:[document undoManager]];

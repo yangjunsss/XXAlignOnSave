@@ -1,6 +1,24 @@
 ##XXAlignOnSave
 
-An amazing Xcode plugin to auto align and indent when save your regular code,such as C,C++,OC.It's based on the XAlign plugin which is configrable.More about XAlign [Here](https://github.com/qfish/XAlign).
+An amazing Xcode plugin to automatically align and indent when save your regular code,such as C,C++,OC.It's based on the XAlign plugin which is configrable.More about XAlign [Here](https://github.com/qfish/XAlign).
+
+### Install & Uninstall
+
+####Install
+```shell
+curl -fsSL https://raw.githubusercontent.com/yangjunsss/XXAlignOnSave/master/Scripts/install.sh | sh
+```
+####Unisntall
+```shell
+curl -fsSL https://raw.githubusercontent.com/yangjunsss/XXAlignOnSave/master/Scripts/uninstall.sh | sh
+```
+
+or Delete the following directory:
+
+```
+~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XXAlignOnSave.xcplugin
+```
+
 
 ### Align on Save
 
@@ -14,24 +32,6 @@ Here are some example alignment patterns. Of course you can make your own. The p
 
 #### Align by property group
 ![Property](http://qfi.sh/XAlign/images/property.gif)
-
-
-### Install & Uninstall
-
-####Install
-```shell
-curl -fsSL https://github.com/yangjunsss/XXAlignOnSave/Scripts/install.sh | sh
-```
-####Unisntall
-```shell
-curl -fsSL https://github.com/yangjunsss/XXAlignOnSave/Scripts/uninstall.sh | sh
-```
-
-or Delete the following directory:
-
-```
-~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XXAlignOnSave.xcplugin
-```
 
 ### Usage
 

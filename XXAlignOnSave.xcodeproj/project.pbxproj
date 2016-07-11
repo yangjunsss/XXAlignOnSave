@@ -27,6 +27,7 @@
 		0CEC97E31D30F21C006BF3BA /* SharedXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97D81D30F21C006BF3BA /* SharedXcode.m */; };
 		0CEC97EE1D30F862006BF3BA /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEC97EC1D30F862006BF3BA /* DVTKit.framework */; };
 		0CEC97EF1D30F862006BF3BA /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEC97ED1D30F862006BF3BA /* DVTFoundation.framework */; };
+		0CED09E51D33E984006EC4E5 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CED09E41D33E984006EC4E5 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,8 @@
 		0CEC97E41D30F44F006BF3BA /* XAlign-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XAlign-Prefix.pch"; sourceTree = "<group>"; };
 		0CEC97EC1D30F862006BF3BA /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = /Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<absolute>"; };
 		0CEC97ED1D30F862006BF3BA /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = /Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<absolute>"; };
+		0CED09E31D33E984006EC4E5 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		0CED09E41D33E984006EC4E5 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				0CEC97C01D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m */,
 				0CEC97B31D30F189006BF3BA /* Info.plist */,
 				0CEC97AD1D30F189006BF3BA /* Supporting Files */,
+				0CED09E31D33E984006EC4E5 /* TestClass.h */,
+				0CED09E41D33E984006EC4E5 /* TestClass.m */,
 			);
 			path = XXAlignOnSave;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CEC97C21D30F1A5006BF3BA /* XXAlignOnSavePlugin.m in Sources */,
+				0CED09E51D33E984006EC4E5 /* TestClass.m in Sources */,
 				0CEC97C31D30F1A5006BF3BA /* XAlignPlugin+OnSave.m in Sources */,
 				0CEC97E11D30F21C006BF3BA /* XAlignPlugin.m in Sources */,
 				0CEC97DE1D30F21C006BF3BA /* SettingWindowController.m in Sources */,

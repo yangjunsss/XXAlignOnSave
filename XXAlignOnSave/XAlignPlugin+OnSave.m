@@ -62,20 +62,5 @@
     
 }
 
-//- (NSString *)createAnchor:(NSString *)content curRange:(NSRange)range
-//{
-//    NSUInteger location = range.location;
-//    NSUInteger left_len = (range.location + content.length - range.location);
-//    NSInteger step      = left_len > 100 ? 100 : left_len;
-//    NSString *step_str  = [content substringWithRange:NSMakeRange(range.location, step)];
-//
-//}
-//
-//- (NSRange )getAnchorRange:(NSString *)content anchor:(NSString *)anchor
-//{
-//
-//}
-
-
 
 @end

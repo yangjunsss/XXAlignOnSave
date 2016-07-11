@@ -19,8 +19,8 @@
     
     NSMutableArray * paddings     = [NSMutableArray array];
     NSMutableArray * processLines = [NSMutableArray array];
-    NSMutableString * newLines = [NSMutableString string];
-    NSArray *patterns = nil;
+    NSMutableString * newLines    = [NSMutableString string];
+    NSArray *patterns             = nil;
     
     for ( NSString * line in lines )
     {
@@ -29,7 +29,7 @@
         NSArray *tmpPatterns = [XAlignPatternManager patternGroupMatchWithString:trimLine];
         if ((tmpPatterns == nil && patterns != nil) || (tmpPatterns != nil && tmpPatterns != patterns)) {
             
-            for ( int i=0; i < processLines.count; i++ )
+            for ( int i = 0; i < processLines.count; i++ )
             {
                 id line = processLines[i];
                 
@@ -54,7 +54,7 @@
             [paddings removeAllObjects];
             [processLines removeAllObjects];
             
-            for ( int j=0; j < (tmpPatterns.count * 2 + 1); j++ )
+            for ( int j = 0; j < (tmpPatterns.count * 2 + 1); j++ )
             {
                 [paddings addObject:@(-1)];
             }
@@ -79,7 +79,7 @@
         
     }
     
-    for ( int i=0; i < processLines.count; i++ )
+    for ( int i = 0; i < processLines.count; i++ )
     {
         id line = processLines[i];
         

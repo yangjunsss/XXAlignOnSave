@@ -20,8 +20,7 @@
 {
     NSTextView * textView            = [SharedXcode textView];
     IDESourceCodeDocument * document = [SharedXcode sourceCodeDocument];
-    IDESourceCodeEditor *editor      = [SharedXcode currentEditor];
-    if ( !document || !editor )
+    if ( !document )
         return;
     DVTFileDataType *type = [document fileDataType];
     if (![[XXAlignOnSavePlugin sharedInstance].fileTypes containsObject:type.identifier]) {
@@ -42,19 +41,41 @@
         NSString * replace = [allcontent stringByAligning];
         if ( replace )
         {
-            
-            NSTextView *textView = [editor textView];
-            NSRange curRange     = textView.selectedRange;
+            NSRange curRange               = textView.selectedRange;
+            NSRange lineRange              = [[document textStorage] lineRangeForCharacterRange:curRange];
+            NSRange charaterRange          = [[document textStorage] characterRangeForLineRange:lineRange];
+            NSUInteger charaterIndexInLine = curRange.location - charaterRange.location;
+            NSUInteger charaterLength      = curRange.length;
+            NSRect visibleRect             = [textView visibleRect];
             
             [[document textStorage] beginEditing];
             [[document textStorage] replaceCharactersInRange:NSMakeRange(0, allcontent.length) withString:replace withUndoManager:[document undoManager]];
             [[document textStorage] indentCharacterRange:NSMakeRange(0, allcontent.length) undoManager:[document undoManager]];
             [[document textStorage] endEditing];
             
-            [textView setSelectedRange:curRange];
-            [textView scrollRangeToVisible:curRange];
+            charaterRange              = [[document textStorage] characterRangeForLineRange:lineRange];
+            NSRange real_charaterRange = NSMakeRange(charaterRange.location + charaterIndexInLine, charaterLength);
+            [textView setSelectedRange:real_charaterRange];
+            [textView scrollRectToVisible:visibleRect];
         }
     }
     
 }
+
+//- (NSString *)createAnchor:(NSString *)content curRange:(NSRange)range
+//{
+//    NSUInteger location = range.location;
+//    NSUInteger left_len = (range.location + content.length - range.location);
+//    NSInteger step      = left_len > 100 ? 100 : left_len;
+//    NSString *step_str  = [content substringWithRange:NSMakeRange(range.location, step)];
+//
+//}
+//
+//- (NSRange )getAnchorRange:(NSString *)content anchor:(NSString *)anchor
+//{
+//
+//}
+
+
+
 @end

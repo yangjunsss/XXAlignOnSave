@@ -6,7 +6,14 @@ An amazing Xcode plugin to automatically align and indent when save your regular
 
 I'm lazy to align the code through select.I want a more convenient way.
 
-##Align on Save
+
+## Usage
+
+```
+Xcode -> Edit -> XXAlign -> Auto Align On Save
+```
+The default is enable.
+
 ![Demo](http://yangjunsss.github.io/assets/media/d17c7a5bb3aaa707c347fc08f90de58e.gif)
 
 ### Install & Uninstall
@@ -30,22 +37,6 @@ or Delete the following directory:
 ### Align on Save
 
 Here are some example alignment patterns. Of course you can make your own. The pattern file is here:  `XAlign/patterns.plist`, and the patterns are based on regular expression.
-
-#### Align by equals sign
-![Equal](http://qfi.sh/XAlign/images/equal.gif)
-
-#### Align by define group
-![Define](http://qfi.sh/XAlign/images/define.gif)
-
-#### Align by property group
-![Property](http://qfi.sh/XAlign/images/property.gif)
-
-### Usage
-
-```
-Xcode -> Edit -> XXAlign -> Auto Align On Save
-```
-The default is enable.
 
 
 ### Issue  

@@ -10,12 +10,10 @@
 		0C3CB1601D30FBE800AAF1F6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CB15C1D30FBE800AAF1F6 /* LICENSE */; };
 		0C3CB1611D30FBE800AAF1F6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CB15D1D30FBE800AAF1F6 /* README.md */; };
 		0C3CB1621D30FBE800AAF1F6 /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CB15F1D30FBE800AAF1F6 /* install.sh */; };
-		0C3CB1651D31478D00AAF1F6 /* NSString+OnSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CB1641D31478D00AAF1F6 /* NSString+OnSave.m */; };
 		0CEC97AF1D30F189006BF3BA /* XXAlignOnSave.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC97AE1D30F189006BF3BA /* XXAlignOnSave.xcscheme */; };
 		0CEC97C11D30F1A5006BF3BA /* NSObject+Plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97B91D30F1A5006BF3BA /* NSObject+Plugin.m */; };
 		0CEC97C21D30F1A5006BF3BA /* XXAlignOnSavePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97BC1D30F1A5006BF3BA /* XXAlignOnSavePlugin.m */; };
 		0CEC97C31D30F1A5006BF3BA /* XAlignPlugin+OnSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97BE1D30F1A5006BF3BA /* XAlignPlugin+OnSave.m */; };
-		0CEC97C41D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97C01D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m */; };
 		0CEC97DB1D30F21C006BF3BA /* NSString+XAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC97CA1D30F21C006BF3BA /* NSString+XAlign.m */; };
 		0CEC97DC1D30F21C006BF3BA /* patterns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC97CB1D30F21C006BF3BA /* patterns.plist */; };
 		0CEC97DD1D30F21C006BF3BA /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CEC97CC1D30F21C006BF3BA /* setting.plist */; };
@@ -34,8 +32,6 @@
 		0C3CB15C1D30FBE800AAF1F6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0C3CB15D1D30FBE800AAF1F6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0C3CB15F1D30FBE800AAF1F6 /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
-		0C3CB1631D31478D00AAF1F6 /* NSString+OnSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OnSave.h"; sourceTree = "<group>"; };
-		0C3CB1641D31478D00AAF1F6 /* NSString+OnSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OnSave.m"; sourceTree = "<group>"; };
 		0CEC97AA1D30F189006BF3BA /* XXAlignOnSave.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXAlignOnSave.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEC97AE1D30F189006BF3BA /* XXAlignOnSave.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = XXAlignOnSave.xcscheme; path = XXAlignOnSave.xcodeproj/xcshareddata/xcschemes/XXAlignOnSave.xcscheme; sourceTree = SOURCE_ROOT; };
 		0CEC97B31D30F189006BF3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +41,6 @@
 		0CEC97BC1D30F1A5006BF3BA /* XXAlignOnSavePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXAlignOnSavePlugin.m; sourceTree = "<group>"; };
 		0CEC97BD1D30F1A5006BF3BA /* XAlignPlugin+OnSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XAlignPlugin+OnSave.h"; sourceTree = "<group>"; };
 		0CEC97BE1D30F1A5006BF3BA /* XAlignPlugin+OnSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAlignPlugin+OnSave.m"; sourceTree = "<group>"; };
-		0CEC97BF1D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XAlignPluginConfig+OnSave.h"; sourceTree = "<group>"; };
-		0CEC97C01D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAlignPluginConfig+OnSave.m"; sourceTree = "<group>"; };
 		0CEC97C61D30F21C006BF3BA /* blade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blade.h; sourceTree = "<group>"; };
 		0CEC97C91D30F21C006BF3BA /* NSString+XAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XAlign.h"; sourceTree = "<group>"; };
 		0CEC97CA1D30F21C006BF3BA /* NSString+XAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XAlign.m"; sourceTree = "<group>"; };
@@ -128,14 +122,10 @@
 				0CEC97D61D30F21C006BF3BA /* Xcode */,
 				0CEC97B91D30F1A5006BF3BA /* NSObject+Plugin.m */,
 				0CEC97BA1D30F1A5006BF3BA /* NSObject+Plugin.h */,
-				0C3CB1631D31478D00AAF1F6 /* NSString+OnSave.h */,
-				0C3CB1641D31478D00AAF1F6 /* NSString+OnSave.m */,
 				0CEC97BB1D30F1A5006BF3BA /* XXAlignOnSavePlugin.h */,
 				0CEC97BC1D30F1A5006BF3BA /* XXAlignOnSavePlugin.m */,
 				0CEC97BD1D30F1A5006BF3BA /* XAlignPlugin+OnSave.h */,
 				0CEC97BE1D30F1A5006BF3BA /* XAlignPlugin+OnSave.m */,
-				0CEC97BF1D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.h */,
-				0CEC97C01D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m */,
 				0CEC97B31D30F189006BF3BA /* Info.plist */,
 				0CEC97AD1D30F189006BF3BA /* Supporting Files */,
 				0CED09E31D33E984006EC4E5 /* TestClass.h */,
@@ -267,8 +257,6 @@
 				0CEC97C11D30F1A5006BF3BA /* NSObject+Plugin.m in Sources */,
 				0CEC97E21D30F21C006BF3BA /* XAlignPluginConfig.m in Sources */,
 				0C3CB1611D30FBE800AAF1F6 /* README.md in Sources */,
-				0CEC97C41D30F1A5006BF3BA /* XAlignPluginConfig+OnSave.m in Sources */,
-				0C3CB1651D31478D00AAF1F6 /* NSString+OnSave.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

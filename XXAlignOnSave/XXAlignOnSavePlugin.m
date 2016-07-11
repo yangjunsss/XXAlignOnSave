@@ -44,8 +44,5 @@
             [XXAlignOnSavePlugin sharedInstance].bSourceChanged = lineR.location > 0;
         }
     }
-    //NSLog(@"%@  %@ %@",notify.name,notify.className,notify.userInfo);
-    
-    //NSLog(@"%@  %@",notify.name,notify.className);
 }
 @end

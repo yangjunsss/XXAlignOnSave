@@ -1,4 +1,4 @@
-##XXAlignOnSave
+##XXAlignOnSave ![img](https://travis-ci.org/yangjunsss/XXAlignOnSave.svg?branch=master)
 
 An amazing Xcode plugin to automatically align and indent when save your regular code,such as C,C++,OC.It's based on the XAlign plugin which is configurable.More about XAlign [Here](https://github.com/qfish/XAlign).
 

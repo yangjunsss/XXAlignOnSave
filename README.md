@@ -6,6 +6,9 @@ An amazing Xcode plugin to automatically align and indent when save your regular
 
 I'm lazy to align the code through select.I want a more convenient way.
 
+##Align on Save
+![Demo](http://yangjunsss.github.io/assets/media/d17c7a5bb3aaa707c347fc08f90de58e.gif)
+
 ### Install & Uninstall
 
 ####Install

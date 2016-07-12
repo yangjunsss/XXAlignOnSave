@@ -43,11 +43,12 @@
         NSString * replace = [allcontent stringByAligning];
         if ( replace )
         {
-            NSRange curRange               = textView.selectedRange;
-            NSRange lineRange              = [[document textStorage] lineRangeForCharacterRange:curRange];
-            NSRange charaterRange          = [[document textStorage] characterRangeForLineRange:lineRange];
-            NSUInteger charaterIndexInLine = curRange.location - charaterRange.location;
-            NSUInteger charaterLength      = curRange.length;
+            NSRange curRange      = textView.selectedRange;
+            NSRange lineRange     = [[document textStorage] lineRangeForCharacterRange:curRange];
+            NSRange charaterRange = [[document textStorage] characterRangeForLineRange:lineRange];
+            
+            NSUInteger curPositionInLine = curRange.location - charaterRange.location ;
+            NSUInteger curLen      = curRange.length;
             NSRect visibleRect             = [textView visibleRect];
             
             [[document textStorage] beginEditing];
@@ -56,7 +57,7 @@
             [[document textStorage] endEditing];
             
             charaterRange              = [[document textStorage] characterRangeForLineRange:lineRange];
-            NSRange real_charaterRange = NSMakeRange(charaterRange.location + charaterIndexInLine, charaterLength);
+            NSRange real_charaterRange = NSMakeRange(charaterRange.location + curPositionInLine, curLen);
             [textView setSelectedRange:real_charaterRange];
             [textView scrollRectToVisible:visibleRect];
         }

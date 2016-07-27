@@ -17,11 +17,14 @@
 
 -(void) xxalignonsave_ide_saveDocument:(id) arg{
     [self xxalignonsave_ide_saveDocument:arg];
-    if([self isKindOfClass:NSClassFromString(@"IDEEditorDocument")]){
-        if ([XXAlignOnSavePlugin sharedInstance].bEnable) {
-            [[XAlignPlugin sharedInstance] autoAlignAll];
+    // next runloop to algin
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        if([self isKindOfClass:NSClassFromString(@"IDEEditorDocument")]){
+            if ([XXAlignOnSavePlugin sharedInstance].bEnable) {
+                [[XAlignPlugin sharedInstance] autoAlignAll];
+            }
         }
-    }
+    });
 }
 
 + (void)swizzleClass:(nullable Class)class originalSelector:(nullable SEL)originalSelector swizzledSelector:(nullable SEL)swizzledSelector instanceMethod:(BOOL)instanceMethod{
